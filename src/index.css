@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .wrapper-container {
+    @apply max-w-5xl mx-auto px-2
+  }
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: black;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
